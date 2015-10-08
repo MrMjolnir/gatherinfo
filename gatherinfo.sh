@@ -6,9 +6,10 @@
 EMAILTO=address1,address2
 WLUSER="weblogic"
 
+echo "--"
 echo "[Executing script, it can take some minutes...]"
 echo "[Be patient...]"
-echo ""
+echo "--"
 
 DATESTAMP=`/bin/date +%m%d%y-%H%M`
 mkdir -p log/$DATESTAMP
