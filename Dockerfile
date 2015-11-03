@@ -15,6 +15,6 @@ FROM centos:7
 #CMD ["nginx", "-g", "daemon off;"]
 # linking containers: app.srv --> db.srv
 
-COPY gatherinfo.sh
+COPY gatherinfo.sh .
 CMD ["/bin/bash", "gatherinfo.sh"]
 
